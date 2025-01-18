@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="form">
+        <label for="firstname">First name</label>
+        <input type="text" id="firstname" name="firstname">
+    
+        <label for="lastname">Last name</label>
+        <input type="text" id="lastname" name="lastname">
+    
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email">
+    
+        <label>Options</label>
+        <div class="inline-group">
+            <input type="checkbox" id="option1" name="options" value="Option1">
+            <label for="option1">Option 1</label>
+            <input type="checkbox" id="option2" name="options" value="Option2">
+            <label for="option2">Option 2</label>
+        </div>
+
+        <label>Gender</label>
+        <div class="inline-group">
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+        </div>
+    
+        <label for="commant">Commant</label>
+        <textarea id="commant" name="commant"></textarea>
+    
+        <label for="option">Select an option</label>
+        <select id="dropdown" name="dropdown">
+            <option value="">--Select--</option>
+            <option value="Option A">Option A</option>
+            <option value="Option B">Option B</option>
+            <option value="Option C">Option C</option>
+        </select>
+    
+        <button type="button" id="submitbtn">Submit</button>
+        <button type="button" id="cancelbtn">Cancel</button>
+    
+        <div id="tablecontainer"></div>
+
+        <script src = "validation.js"></script>
+    </form>
+</body>
+</html>

@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin  : 0% 0% 0% 40%;
+    text-align: left;
+}
+
+form > * {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.inline-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.inline-group input {
+    margin-right: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button#cancelbtn {
+    background-color: #6c757d;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+.error {
+    color: red;
+    font-size: 0.85em;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+
+
+.error {
+    color: red;
+    font-size: 0.9em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
